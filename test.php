@@ -6,6 +6,6 @@ echo '增加一个新功能';
 
 class Test{
     public function __construct(){
-        
+        echo __METHOD__;
     }
 }
